@@ -10,6 +10,10 @@
   <a href="#english">English</a>
 </p>
 
+<p align="center">
+  <img src="./assets/focus-typing.gif" width="100%" alt="Animated focus areas: digital worlds, generative AI, creative coding and mechanical systems" />
+</p>
+
 ## Merhaba, ben Talha.
 
 Selçuk Üniversitesi'nde **Makine Mühendisliği** okuyorum. Dijital dünyalar, üretken yapay zekâ ürünleri ve yaratıcı kodlama sistemleri geliştiriyorum.
@@ -21,6 +25,10 @@ Selçuk Üniversitesi'nde **Makine Mühendisliği** okuyorum. Dijital dünyalar,
 - **World Systems** — Topluluk, ekonomi ve performans çevresinde yaşayan Minecraft sunucu sistemleri.
 - **OtherSelf** — Kullanıcı fotoğraflarını kişisel görsel dünyalara dönüştüren, geliştirme aşamasındaki AI ürünü.
 - **Assembly** — Fikirlerden yeniden kullanılabilir arayüz bileşenleri üretmeye odaklanan deneysel AI aracı.
+
+<p align="center">
+  <img src="./assets/project-ticker.gif" width="100%" alt="Animated project ticker: World Systems, OtherSelf, Assembly and UI Motion Atlas" />
+</p>
 
 ### Çalışma alanlarım
 
