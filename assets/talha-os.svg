@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780" role="img" aria-labelledby="title desc">
+  <title id="title">Talha OS portfolio desktop</title>
+  <desc id="desc">A retro-futurist computer desktop introducing Nasıf Talha Eren and selected projects.</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0a1223"/>
+      <stop offset=".58" stop-color="#101d35"/>
+      <stop offset="1" stop-color="#172944"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#8fe7ff" stop-opacity=".36"/>
+      <stop offset=".55" stop-color="#8fe7ff" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#8fe7ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ice" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d7f7ff"/>
+      <stop offset="1" stop-color="#78d8f7"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#cceffc" stroke-opacity=".045"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#02060e" flood-opacity=".55"/>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="26"/></filter>
+    <clipPath id="viewport"><rect x="64" y="58" width="1152" height="650" rx="24"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="780" rx="38" fill="#080e19"/>
+  <rect x="2" y="2" width="1276" height="776" rx="36" fill="none" stroke="#d8f4ff" stroke-opacity=".12" stroke-width="2"/>
+  <rect x="64" y="58" width="1152" height="650" rx="24" fill="url(#screen)" stroke="#d9f7ff" stroke-opacity=".18" stroke-width="2"/>
+
+  <g clip-path="url(#viewport)">
+    <rect x="64" y="58" width="1152" height="650" fill="url(#grid)"/>
+    <circle cx="895" cy="337" r="390" fill="url(#halo)" filter="url(#soft)"/>
+
+    <g opacity=".3" fill="none" stroke="#9ce7ff">
+      <ellipse cx="975" cy="335" rx="230" ry="92" transform="rotate(-18 975 335)"/>
+      <ellipse cx="975" cy="335" rx="154" ry="278" transform="rotate(42 975 335)"/>
+      <circle cx="975" cy="335" r="54" fill="#0a1223"/>
+    </g>
+
+    <rect x="64" y="58" width="1152" height="54" fill="#0a1324" fill-opacity=".88"/>
+    <path d="M64 112H1216" stroke="#d9f7ff" stroke-opacity=".12"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="91" y="91" fill="#eaf7f7" font-size="15" font-weight="700" letter-spacing="2">TALHA OS</text>
+      <circle cx="1098" cy="84" r="4" fill="#8fe7ff"/>
+      <text x="1113" y="90" fill="#91a7ba" font-size="11" letter-spacing="1">ONLINE</text>
+      <text x="1175" y="90" fill="#91a7ba" font-size="11">TR</text>
+    </g>
+
+    <!-- Desktop icons -->
+    <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+      <g transform="translate(111 153)">
+        <path d="M0 0h34l9 10h33v56H0z" fill="#8fe7ff"/><path d="M0 12h76" stroke="#0c1728" stroke-opacity=".35"/>
+        <text x="38" y="87" fill="#dcebed" font-size="12">Projects</text>
+      </g>
+      <g transform="translate(111 274)">
+        <rect width="76" height="66" rx="8" fill="#eef1e8"/><circle cx="38" cy="25" r="12" fill="#172944"/><path d="M16 58c4-17 14-25 22-25s18 8 22 25" fill="#78d8f7"/>
+        <text x="38" y="87" fill="#dcebed" font-size="12">About</text>
+      </g>
+      <g transform="translate(111 395)">
+        <rect width="76" height="66" rx="8" fill="#10213b" stroke="#8fe7ff"/><path d="M15 21l14 12-14 12M36 47h24" fill="none" stroke="#8fe7ff" stroke-width="4"/>
+        <text x="38" y="87" fill="#dcebed" font-size="12">Lab</text>
+      </g>
+      <g transform="translate(111 516)">
+        <rect width="76" height="66" rx="8" fill="#8fe7ff"/><path d="M12 17l26 20 26-20M12 17v35h52V17" fill="none" stroke="#10213b" stroke-width="4"/>
+        <text x="38" y="87" fill="#dcebed" font-size="12">Contact</text>
+      </g>
+    </g>
+
+    <!-- Main profile window -->
+    <g filter="url(#shadow)">
+      <rect x="250" y="150" width="725" height="448" rx="18" fill="#eef0e8"/>
+      <rect x="250" y="150" width="725" height="48" rx="18" fill="#cceffa"/>
+      <path d="M250 180v18h725v-18" fill="#cceffa"/>
+      <circle cx="278" cy="174" r="6" fill="#101d35"/>
+      <circle cx="300" cy="174" r="6" fill="#101d35" fill-opacity=".45"/>
+      <circle cx="322" cy="174" r="6" fill="#101d35" fill-opacity=".18"/>
+      <text x="361" y="180" fill="#172944" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1">profile.app / talha</text>
+
+      <g font-family="Arial, Helvetica, sans-serif">
+        <text x="292" y="252" fill="#172944" font-size="14" font-weight="700" letter-spacing="2">NASIF TALHA EREN</text>
+        <text x="288" y="324" fill="#0a1223" font-size="45" font-weight="900" letter-spacing="-3">BUILDING BETWEEN</text>
+        <text x="288" y="375" fill="#0a1223" font-size="45" font-weight="900" letter-spacing="-3">CODE &amp; MACHINES.</text>
+        <rect x="292" y="428" width="66" height="4" rx="2" fill="#55c9ee"/>
+        <text x="292" y="470" fill="#425468" font-size="17">Digital worlds, generative AI, creative coding</text>
+        <text x="292" y="497" fill="#425468" font-size="17">and mechanical systems.</text>
+        <rect x="292" y="531" width="155" height="37" rx="18" fill="#101d35"/>
+        <text x="369" y="555" fill="#dff7ff" font-size="12" text-anchor="middle" font-weight="700" letter-spacing="1">OPEN PORTFOLIO ↗</text>
+      </g>
+
+      <g transform="translate(790 248)">
+        <circle cx="80" cy="80" r="83" fill="#c8edf7"/>
+        <circle cx="80" cy="80" r="57" fill="#101d35"/>
+        <path d="M-8 103c44-61 111-61 176 2" fill="none" stroke="url(#ice)" stroke-width="18" stroke-linecap="round"/>
+        <circle cx="80" cy="80" r="18" fill="#eef1e8"/>
+        <text x="80" y="217" text-anchor="middle" fill="#172944" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2">CREATIVE TECHNOLOGY</text>
+      </g>
+    </g>
+
+    <!-- Project window behind -->
+    <g transform="translate(840 430)" filter="url(#shadow)">
+      <rect width="330" height="205" rx="16" fill="#0b1629" stroke="#9ce7ff" stroke-opacity=".35"/>
+      <rect width="330" height="38" rx="16" fill="#152943"/>
+      <path d="M0 25v13h330V25" fill="#152943"/>
+      <circle cx="22" cy="19" r="5" fill="#8fe7ff"/>
+      <text x="39" y="24" fill="#a9bdca" font-family="Arial" font-size="10" letter-spacing="1">selected-work.folder</text>
+      <g font-family="Arial, Helvetica, sans-serif">
+        <text x="25" y="78" fill="#eaf2ed" font-size="13" font-weight="700">UI Motion Atlas</text>
+        <text x="25" y="102" fill="#81a0b5" font-size="11">scene-first agent skill</text>
+        <path d="M25 122H305" stroke="#eaf2ed" stroke-opacity=".12"/>
+        <text x="25" y="151" fill="#eaf2ed" font-size="13" font-weight="700">OtherSelf</text>
+        <text x="25" y="175" fill="#81a0b5" font-size="11">personal visual worlds</text>
+      </g>
+    </g>
+
+    <!-- Dock -->
+    <g transform="translate(445 650)">
+      <rect width="390" height="65" rx="22" fill="#08111f" fill-opacity=".86" stroke="#d9f7ff" stroke-opacity=".18"/>
+      <g transform="translate(22 11)">
+        <rect width="43" height="43" rx="12" fill="#8fe7ff"/><path d="M11 27l8-8 7 7 7-12" fill="none" stroke="#101d35" stroke-width="4"/>
+      </g>
+      <g transform="translate(82 11)">
+        <rect width="43" height="43" rx="12" fill="#eef1e8"/><circle cx="21.5" cy="21.5" r="10" fill="none" stroke="#101d35" stroke-width="3"/><path d="M21.5 10v23M10 21.5h23" stroke="#101d35" stroke-width="2"/>
+      </g>
+      <g transform="translate(142 11)">
+        <rect width="43" height="43" rx="12" fill="#18314f"/><path d="M9 15h25v19H9zM9 15l12.5 10L34 15" fill="none" stroke="#8fe7ff" stroke-width="2.5"/>
+      </g>
+      <path d="M208 13v39" stroke="#d9f7ff" stroke-opacity=".15"/>
+      <text x="236" y="28" fill="#d7e6e8" font-family="Arial" font-size="11" letter-spacing="1">WORLD SYSTEMS</text>
+      <text x="236" y="47" fill="#7591a8" font-family="Arial" font-size="10">AI · CODE · ENGINEERING</text>
+    </g>
+  </g>
+
+  <!-- Monitor base -->
+  <path d="M520 708h240l18 38H502z" fill="#111c2c" stroke="#d9f7ff" stroke-opacity=".12"/>
+  <rect x="448" y="746" width="384" height="12" rx="6" fill="#111c2c"/>
+  <circle cx="1180" cy="738" r="5" fill="#8fe7ff"/>
+</svg>
